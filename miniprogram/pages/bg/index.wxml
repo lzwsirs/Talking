@@ -1,0 +1,18 @@
+<!--pages/bg/index.wxml-->
+
+<view class="box">
+  <view class="header">
+    <!-- <image src="../../images/bg.png" class="img"></image>
+    <view class="xinxi">
+        <open-data type="userAvatarUrl"  class="userimg"></open-data> 
+        <open-data type="userNickName" lang="zh_CN" class="username"></open-data>
+    </view>
+    <view class="fenshu"><text class="shu">15</text>分</view>
+    <image src="../../images/02.png" class="jlove"></image> -->
+   <canvas canvas-id="customCanvas" style="width:94.5vw;height:55vh;text-align:center;margin:auto;"></canvas>
+  </view>
+  <view class="once"><button class="oncebutton" bindtap="saveImg">保存到相册</button></view>
+  <button class='openSetting' open-type="openSetting" bindopensetting='handleSetting' hidden='{{openSettingBtnHidden}}'>授权</button>
+  <view class="footer" bindtap="fanclick">返回首页</view>
+  
+</view>

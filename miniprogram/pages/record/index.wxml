@@ -1,0 +1,31 @@
+<!--pages/record/index.wxml-->
+<view class="talkBox">
+  <view class="talkBoxheader">
+    <image src="../../images/xindetitle.png" class="xindetitle"></image>
+    <image src="../../images/top.png" class="imagetop"></image>
+    <view class="content">
+        <view class="contenthead">
+         <image src="../../images/todayimg.png" class="todayimg"></image>
+        </view>
+        <view class="time">{{time}}</view>
+        <view class="english">
+        Sometimes your whole life boils down to one  insane move.
+        </view>
+        <view  class="chinese">
+        人一生中出人头地的机会不多，一旦有了一定要抓住机会！
+        </view>
+    </view>
+    <image src="../../images/up.png" class="imageup"></image>
+    <view class="botz">
+      <view class="tz" bindtap="tzclick">
+      <text class="tzfont">挑战</text>
+       <image src="../../images/wheaticon.png" class="tzbtn"></image>
+     </view>
+    </view>
+    
+  </view>
+  <view class="talkBoxfooter">
+     <text class="test">听听我说的吧</text>
+  </view>
+  <image src="../../images/icon.png" class="icon"></image>
+</view>

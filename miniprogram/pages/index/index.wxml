@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="imagesize">
+    <image src="../../images/logo.png" class="logo"></image>
+    <image src="../../images/ix.jpg" class="bg-image" mode="widthFix">></image>
+     <image src="../../images/stytxt.png" class="stytxt"></image>
+     <view class="start" bindtap="btnclick">
+       <image src="../../images/startbtn.png" class="startbtn"></image>
+     </view>
+  </view>
+
+</view>

@@ -1,0 +1,123 @@
+/* pages/record/index.wxss */
+.talkBox{
+  width: 90%;
+  height:100%;
+  margin:auto;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  align-content: flex-start;
+}
+.talkBoxheader{
+  border:4rpx solid black;
+  width:100%;
+  height:348px;
+  margin-top:20rpx;
+  position: relative;
+}
+.imagetop{
+  width:100%;
+  height:124rpx;
+}
+.content{
+  width:100%;
+  height:220px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  align-content: flex-start;
+}
+.imageup{
+  width:100%;
+  height:124rpx;
+}
+.talkBoxfooter{
+  margin-top:100rpx;
+  width:100%;
+  min-height:30px;
+  border:4rpx solid black;
+  position: relative;
+  display:flex;
+  justify-content: center;
+}
+.test{
+  font-size:28rpx;
+  font-weight: bolder;
+  color:orange;
+  background-color:black;
+  letter-spacing:2rpx;
+  padding:8px;
+  position: absolute;
+  top:-40rpx;
+}
+.xindetitle{
+  max-width:235rpx;
+  height:68rpx;
+  position: absolute;
+  left:0;
+  top:0; 
+}
+.botz{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+.tz{
+    width:26%;
+    height:80rpx;
+    background-color:orange;
+    border:2px solid black;
+    position: absolute;
+    bottom:10%;
+    border-radius:60rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tzfont{
+    font-weight: bolder;
+    font-size:34rpx;
+  }
+  .tzbtn{
+    display:block;
+    width:40rpx;
+    height:40rpx;
+  }
+  .icon{
+    width:106rpx;
+    height:141rpx;
+    position: fixed;
+    right:0px;
+    top:50%;
+  }
+  .todayimg{
+    width:191rpx;
+    height:40rpx;
+  }
+  .contenthead{
+    width:100%;
+    display:flex;
+    justify-content: center;
+  }
+  .time{
+    text-align: center;
+    font-size:24rpx;
+  }
+  .english{
+    width:90%;
+    margin:auto;
+    height:70px;
+    margin-top:40rpx;
+    font-size:30rpx;
+  }
+  .chinese{
+    font-size:24rpx;
+    border-left:4rpx solid orange;
+    width:90%;
+    height:40px;
+    margin:auto;
+    padding-left:6rpx;
+    margin-top:-30rpx;
+  }

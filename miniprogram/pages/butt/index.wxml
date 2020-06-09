@@ -1,0 +1,27 @@
+<!--pages/butt/index.wxml-->
+<!--pages/record/index.wxml-->
+<view class="talkBox">
+  <view class="talkBoxheader">
+    <image src="../../images/logo.png" class="xindetitle"></image>
+    <image src="../../images/top.png" class="imagetop"></image>
+    <view class="content">
+        <view class="contenthead">
+         <image src="../../images/020.png" class="todayimg"></image>
+        </view>
+        <view class="xinxi">
+        <open-data type="userAvatarUrl"  class="userimg"></open-data> 
+        <open-data type="userNickName" lang="zh_CN" class="username"></open-data><text>的口语评分</text>
+        </view>
+        <view class="fenshu"><text class="shu">15</text>分</view>
+    </view>
+    <image src="../../images/up.png" class="imageup"></image>    
+    <view class="bfyj">
+        <image src="../../images/play.png"  class="bfcl" wx:if="{{isplay}}"></image>
+        <image src="../../images/zhanting.png"  class="bfcl" wx:else></image>
+        <text class="tis">What do we have left once we abandon the lie?</text>
+    </view>
+  </view>
+  <view class="once"><button class="oncebutton" bindtap="tzclick">在挑战一次</button></view>
+  <view class="fenxi"><button class="fenxibutton" open-type="share">转发好友及群组</button><button class="fenxibutton" bindtap="scclick">生成图片分享</button></view>
+</view>
+

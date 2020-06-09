@@ -1,0 +1,37 @@
+<!--pages/challenge/index.wxml-->
+<view class="challBox">
+  <image src="../../images/totalk.png" class="xindetitle"></image>
+  <image src="../../images/top.png" class="imagetop"></image>
+  <view class="content">
+     <view class="english">
+        Sometimes your whole life boils down to one  insane move.
+      </view>
+    <image src="../../images/xiaoma.png"  class="xiaoma" wx:if="{{tre}}"></image>
+    <image src="../../images/mjj.gif"  class="xiaoma"  wx:else></image>
+    <view class="tishi">长按话筒录音，松开完成</view>
+    <view class="smb">
+      <view>
+         <image src="../../images/nosta.png"  class="bfcl" wx:if="{{bool}}"></image>
+         <view wx:else bindtap="bftap" data-isplay="{{isplay}}">
+          <image src="../../images/play.png"  class="bfcl" wx:if="{{isplay}}"></image>
+           <image src="../../images/zhanting.png"  class="bfcl" wx:else></image>
+         </view>
+      </view>
+      <view>
+         <image src="../../images/wheaticonq.png"  class="ly" bindtap="lytap" bindtouchend="lytou" bindlongpress="lylongpress" wx:if="{{bool}}"></image>
+         <image src="../../images/microphone.png"  class="ly"  wx:else></image>
+      </view>
+      <view>
+        <image src="../../images/xinde.png"  class="bfcl" wx:if="{{bool}}"></image>
+        <image src="../../images/chongxin.png"  class="bfcl" bindtap="cltap" wx:else></image>
+      </view>
+    </view>
+  </view>
+  <image src="../../images/up.png" class="imageup"></image>
+  <view class="botz">
+    <view class="tz" bindtap="tzclick">
+    <text class="tzfont">提交</text>
+      <image src="../../images/nexticon.png" class="tzbtn"></image>
+    </view>
+   </view>
+</view>
